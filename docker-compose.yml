@@ -1,0 +1,11 @@
+version: '3'
+services:
+  webapp:
+    build: .
+    ports:
+      - "4000:5000"
+    environment:
+      FLASK_SECRET_KEY: ${FLASK_SECRET_KEY}
+      COOKIE_ALI: ${COOKIE_ALI}
+      APP_SECRET_ALI: ${APP_SECRET_ALI}
+
