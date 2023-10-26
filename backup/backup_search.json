@@ -1,0 +1,13 @@
+{
+    "data": {
+        "sellers": {
+            "1101557921": {
+                "store_id": 1101557921,
+                "store_name": "AShow Store",
+                "products": [
+                    "1005003579233360"
+                ]
+            }
+        }
+    }
+}
